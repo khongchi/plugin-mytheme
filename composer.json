@@ -1,21 +1,22 @@
 {
     "name": "xpressengine-plugin/mytheme",
-    "description": "This Package is Xpressengine Plugin - my theme.",
+    "description": "이 플러그인은 테마 만들기 실습을 위해 제작된  플러그인입니다. XE Basic 템플릿을 기반으로 하는 테마입니다",
     "keywords": [
         "xpressengine",
-        "plugin"
+        "plugin",
+		"xe basic"
     ],
     "license": "LGPL-2.0",
     "version": "1.0.0",
     "type": "xpressengine-plugin",
     "support": {
-        "email": "email@email.com"
+        "email": "khongchi@xpressengine.com"
     },
     "authors": [
         {
-            "name": "input your name",
-            "email": "input@your.email",
-            "homepage": "http://mysite.com",
+            "name": "khongchi",
+            "email": "khongchi@xpressengine.com",
+            "homepage": "http://github.com/khongchi",
             "role": "Developer"
         }
     ],
