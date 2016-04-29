@@ -1,0 +1,51 @@
+{
+    "name": "xpressengine-plugin/mytheme",
+    "description": "This Package is Xpressengine Plugin - my theme.",
+    "keywords": [
+        "xpressengine",
+        "plugin"
+    ],
+    "license": "LGPL-2.0",
+    "version": "1.0.0",
+    "type": "xpressengine-plugin",
+    "support": {
+        "email": "email@email.com"
+    },
+    "authors": [
+        {
+            "name": "input your name",
+            "email": "input@your.email",
+            "homepage": "http://mysite.com",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "xpressengine": {
+            "title": "my theme",
+            "component": {
+                "theme/mytheme@basic": {
+                    "class": "Khongchi\\Plugins\\MyTheme\\Theme\\Basic",
+                    "name": "BasicTheme",
+                    "description": "Basic Theme supported by Mytheme plugin."
+                },
+                "theme/mytheme@main": {
+                    "class": "Khongchi\\Plugins\\MyTheme\\Theme\\Main",
+                    "name": "MainTheme",
+                    "description": "Main page Theme supported by Mytheme plugin."
+                }
+            }
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.xpressengine.io/"
+        }
+    ],
+    "require": [],
+    "autoload": {
+        "psr-4": {
+            "Khongchi\\Plugins\\MyTheme\\": "src/"
+        }
+    }
+}
